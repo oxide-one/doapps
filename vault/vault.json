@@ -1,13 +1,8 @@
 { 
   "storage" : { 
     "postgresql" : {
-      "ha_enabled" : true,
-      "ha_table" : "vault_ha_locks",
       "table" : "vault_kv_store"
     }
-  },
-  "seal": {
-	"gcpckms": {}
   },
   "listener" : {
     "tcp" : {
