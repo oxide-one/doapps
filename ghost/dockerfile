@@ -1,0 +1,4 @@
+FROM ghost:5.23.0-alpine
+RUN npm install ghost-storage-adapter-s3
+RUN cp -r ./node_modules/ghost-storage-adapter-s3 ./content/adapters/storage/s3
+
