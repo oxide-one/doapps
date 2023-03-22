@@ -1,7 +1,6 @@
 { 
   "storage" : { 
-    "postgresql" : {
-      "table" : "vault_kv_store"
+    "s3" : {
     }
   },
   "listener" : {
@@ -10,6 +9,6 @@
       "tls_disable": 1
     }
   },
-  "ui" : true,
+  "ui" : false,
   "disable_mlock" : true
 }
