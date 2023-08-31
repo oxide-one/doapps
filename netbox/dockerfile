@@ -1,1 +1,1 @@
-FROM ghcr.io/netbox-community/netbox:v3.2
+FROM ghcr.io/netbox-community/netbox:v3.6
