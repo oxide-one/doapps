@@ -1,4 +1,4 @@
-FROM ghost:5.23.0-alpine
+FROM ghost:5.81.0-alpine
 RUN npm install --prefix /tmp/ghost-storage-adapter-s3 ghost-storage-adapter-s3 && \
     cp -r /tmp/ghost-storage-adapter-s3/node_modules/ghost-storage-adapter-s3 current/core/server/adapters/storage/s3 && \
     rm -r /tmp/ghost-storage-adapter-s3
